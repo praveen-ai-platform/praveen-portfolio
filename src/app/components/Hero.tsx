@@ -13,22 +13,6 @@ export default function Hero() {
     }),
   };
 
-  const childVariants = {
-    hidden: {
-      opacity: 0,
-      y: 10,
-    },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        type: "spring",
-        damping: 12,
-        stiffness: 200,
-      },
-    },
-  };
-
   return (
     <section className="relative overflow-hidden">
       <div className="absolute inset-0 opacity-40">
@@ -56,7 +40,14 @@ export default function Hero() {
             {words.map((word, index) => (
               <motion.span
                 key={index}
-                variants={childVariants}
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                  type: "spring",
+                  damping: 12,
+                  stiffness: 200,
+                  delay: index * 0.12,
+                }}
                 className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent"
               >
                 {word}
