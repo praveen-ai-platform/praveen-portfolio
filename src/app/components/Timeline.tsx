@@ -31,24 +31,24 @@ export default function Timeline() {
   ];
 
   return (
-    <section id="timeline" className="mx-auto max-w-6xl px-6 py-20">
-      <h2 className="text-2xl font-bold mb-12">Career Timeline</h2>
+    <section id="timeline" className="mx-auto max-w-6xl px-6 py-16">
+      <h2 className="text-2xl font-bold mb-10 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Career Timeline</h2>
 
       <div className="space-y-12">
         {experiences.map((exp, idx) => (
-          <div key={idx} className="border-l-2 border-white/20 pl-8">
-            <div className="absolute w-4 h-4 bg-white rounded-full -left-2.5 top-6"></div>
+          <div key={idx} className="border-l-2 border-gradient-to-b from-cyan-500/40 to-blue-500/40 pl-8 transition-all duration-300 hover:border-cyan-500/80">
+            <div className="absolute w-5 h-5 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full -left-3 top-6 shadow-lg shadow-cyan-500/50"></div>
             
-            <div className="mb-4">
-            <h3 className="text-lg font-bold">{exp.company}</h3>
-            <p className="text-base text-white/80 font-semibold mt-1">{exp.title}</p>
-              <p className="text-white/60 text-sm">{exp.period}</p>
+            <div className="mb-3">
+            <h3 className="text-lg font-bold text-cyan-300">{exp.company}</h3>
+            <p className="text-base text-white/90 font-semibold mt-1.5">{exp.title}</p>
+              <p className="text-cyan-400/60 text-xs font-medium mt-0.5">{exp.period}</p>
             </div>
 
-            <ul className="space-y-2 mb-6">
+            <ul className="space-y-3 mb-6">
               {exp.highlights.map((highlight, i) => (
-                <li key={i} className="text-white/70 flex gap-3">
-                  <span className="text-white/50 mt-1">•</span>
+                <li key={i} className="text-white/75 flex gap-3 leading-relaxed">
+                  <span className="text-cyan-400 mt-1 flex-shrink-0">→</span>
                   <span>{highlight}</span>
                 </li>
               ))}
@@ -58,7 +58,7 @@ export default function Timeline() {
               {exp.skills.map((skill) => (
                 <span
                   key={skill}
-                  className="rounded-full bg-white/5 border border-white/10 px-3 py-1 text-xs text-white/70"
+                  className="rounded-full bg-gradient-to-r from-cyan-500/15 to-blue-500/15 border border-cyan-500/40 px-3 py-1.5 text-xs text-cyan-300 hover:border-cyan-500/60 hover:from-cyan-500/25 hover:to-blue-500/25 hover:shadow-lg hover:shadow-cyan-500/20 transition-all duration-300 font-medium"
                 >
                   {skill}
                 </span>

@@ -18,21 +18,21 @@ export default function Certifications() {
   ];
 
   return (
-    <section id="certifications" className="mx-auto max-w-6xl px-6 py-20">
-      <h2 className="text-2xl font-bold mb-12">Certifications & Awards</h2>
+    <section id="certifications" className="mx-auto max-w-6xl px-6 py-16">
+      <h2 className="text-2xl font-bold mb-10 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Certifications & Awards</h2>
 
       <div className="grid md:grid-cols-2 gap-12">
         <div>
-          <h3 className="text-lg font-bold mb-8 flex items-center gap-2">
-            <span className="text-2xl">🏆</span> Certifications
+          <h3 className="text-lg font-bold mb-6 flex items-center gap-2">
+            <span className="text-2xl">🏆</span> <span className="text-cyan-400">Certifications</span>
           </h3>
-          <div className="space-y-3">
+          <div className="space-y-4">
             {certifications.map((cert, idx) => (
-              <div key={idx} className="flex gap-3">
-                <span className="text-white/50 text-lg">✓</span>
+              <div key={idx} className="group flex gap-4 p-4 rounded-lg border border-cyan-500/20 bg-gradient-to-r from-cyan-500/5 to-blue-500/5 hover:border-cyan-500/40 hover:from-cyan-500/10 hover:to-blue-500/10 hover:shadow-lg hover:shadow-cyan-500/10 transition-all duration-300">
+                <span className="text-cyan-400 text-2xl flex-shrink-0 group-hover:scale-110 transition-transform duration-300">✓</span>
                 <div>
-                  <p className="text-white font-semibold">{cert.name}</p>
-                  <p className="text-white/60 text-sm">{cert.org}</p>
+                  <p className="text-white font-semibold group-hover:text-cyan-300 transition-colors">{cert.name}</p>
+                  <p className="text-cyan-400/60 text-sm">{cert.org}</p>
                 </div>
               </div>
             ))}
@@ -40,22 +40,22 @@ export default function Certifications() {
         </div>
 
         <div>
-          <h3 className="text-lg font-bold mb-8 flex items-center gap-2">
-            <span className="text-2xl">🎓</span> Awards & Recognition
+          <h3 className="text-lg font-bold mb-6 flex items-center gap-2">
+            <span className="text-2xl">🎓</span> <span className="text-cyan-400">Awards & Recognition</span>
           </h3>
           <div className="space-y-6">
             {awards.map((item, idx) => (
-              <div key={idx} className="border-l-2 border-white/20 pl-6">
-                <p className="text-white font-semibold">{item.award}</p>
-                <p className="text-white/60">{item.company}</p>
+              <div key={idx} className="border-l-3 border-gradient-to-b from-cyan-500/60 to-blue-500/40 pl-6 py-3 hover:border-cyan-500/80 transition-all duration-300">
+                <p className="text-white font-semibold text-lg">{item.award}</p>
+                <p className="text-cyan-400/70">{item.company}</p>
               </div>
             ))}
           </div>
           
-          <div className="mt-8 pt-8 border-t border-white/10">
-            <h4 className="text-lg font-semibold mb-3">Education</h4>
-            <p className="text-white">B.Tech</p>
-            <p className="text-white/60">Jawaharlal Nehru Technological University, Andhra Pradesh, India</p>
+          <div className="mt-10 pt-8 border-t border-cyan-500/20">
+            <h4 className="text-lg font-semibold mb-3 text-cyan-300">🎓 Education</h4>
+            <p className="text-white font-semibold text-lg">Bachelor of Technology (B.Tech)</p>
+            <p className="text-cyan-400/70 leading-relaxed">Jawaharlal Nehru Technological University, Andhra Pradesh, India</p>
           </div>
         </div>
       </div>
