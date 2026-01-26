@@ -1,30 +1,30 @@
 export default function Timeline() {
   const experiences = [
     {
-      company: "Ameriprise Financial",
-      title: "Senior Platform Reliability Engineer",
-      period: "Mar 2023 – Present",
+      company: "Enterprise Observability Platform",
+      title: "End-to-End Implementation",
+      period: "2023 – Present",
       highlights: [
-        "Owned enterprise observability strategy using Sumo Logic, Grafana/Prometheus, Dynatrace, Glassbox, and Splunk",
-        "Built AWS monitoring coverage for EKS, Lambda, Batch, EC2, S3 across logs and metrics",
-        "Delivered AIOps improvements: anomaly detection, alert noise reduction, correlation-driven triage",
-        "Implemented Terraform-based automation for consistent monitor provisioning across environments",
-        "Deployed GenAI-driven workflows: log summarization, error grouping, guided troubleshooting patterns",
-        "Implemented PII identification and remediation using Amazon Comprehend",
+        "Designed and deployed multi-tool observability stack: Sumo Logic, Grafana/Prometheus, Dynatrace, Glassbox, Splunk",
+        "Implemented comprehensive AWS monitoring infrastructure for EKS, Lambda, Batch, EC2, S3 with enterprise-grade log & metric collection",
+        "Built AIOps framework: anomaly detection engine, intelligent alert correlation, automated triage workflows",
+        "Implemented Infrastructure-as-Code using Terraform for 100+ monitor provisioning across environments",
+        "Developed GenAI-powered incident assistant with RAG patterns for knowledge retrieval and troubleshooting",
+        "Built PII detection and remediation pipeline using cloud-native services for compliance & data privacy",
       ],
       skills: ["Sumo Logic", "Splunk", "Dynatrace", "Grafana/Prometheus", "Terraform", "AIOps", "GenAI (RAG)", "SageMaker"],
     },
     {
-      company: "DXC Technology",
-      title: "DevOps / Reliability Engineer",
-      period: "Jul 2014 – Mar 2023",
+      company: "CI/CD Automation & Container Orchestration",
+      title: "Jenkins, Docker & Kubernetes Implementation",
+      period: "2014 – 2023",
       highlights: [
-        "Client: London Markets (Jun 2019 – Mar 2023) — Built and maintained robust CI/CD pipelines using Jenkins",
-        "Led Jenkins enablement: RBAC, auditing, notifications, pipeline standardization",
-        "Containerized services using Docker and supported Kubernetes deployments via YAML manifests",
-        "Integrated SonarQube + JUnit for quality gates and shift-left practices",
-        "Client: P&G (Nov 2017 – Jun 2019) — Owned Jenkins pipeline configurations and troubleshooting",
-        "Client: Verisign/Symantec (Jul 2014 – Nov 2017) — Supported Oracle maintenance and production RCA",
+        "Designed and deployed enterprise Jenkins infrastructure with RBAC, audit logging, notifications, and standardized pipeline templates",
+        "Led Jenkins enablement program: best practices adoption, pipeline optimization, team training on 100+ developers",
+        "Containerized microservices using Docker with comprehensive image optimization and security scanning",
+        "Orchestrated containerized workloads with Kubernetes: YAML manifests, deployment strategies, scaling policies",
+        "Integrated SonarQube + JUnit for quality gates, shift-left testing, and automated code quality enforcement",
+        "Managed artifact repositories using Nexus: versioning, security policies, dependency management",
       ],
       skills: ["Jenkins", "Docker", "Kubernetes", "Terraform", "SonarQube", "Nexus", "Git"],
     },
@@ -32,7 +32,7 @@ export default function Timeline() {
 
   return (
     <section id="timeline" className="mx-auto max-w-6xl px-6 py-16">
-      <h2 className="text-2xl font-bold mb-10 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Career Timeline</h2>
+      <h2 className="text-2xl font-bold mb-10 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Technical Journey</h2>
 
       <div className="space-y-12">
         {experiences.map((exp, idx) => (

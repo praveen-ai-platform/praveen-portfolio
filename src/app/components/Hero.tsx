@@ -33,7 +33,7 @@ export default function Hero() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-lg text-cyan-400 font-bold"
           >
-            Praveen
+            Hi 👋, I am Praveen
           </motion.p>
 
           <motion.h1
@@ -66,8 +66,7 @@ export default function Hero() {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="mt-5 text-base sm:text-lg leading-relaxed text-white/75 max-w-3xl font-medium"
           >
-            11+ years of enterprise experience delivering reliability-first operations, observability engineering, and 
-            automation across critical systems. Passionate about GenAI, MLOps, and building AI-powered incident intelligence.
+            Master of enterprise observability and reliability engineering. Expert in implementing and optimizing production monitoring stacks, AIOps intelligence platforms, and infrastructure automation that scales across mission-critical systems.
           </motion.p>
 
           <motion.div 
