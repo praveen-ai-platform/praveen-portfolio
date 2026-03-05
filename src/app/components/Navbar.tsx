@@ -30,7 +30,7 @@ export default function Navbar() {
         </nav>
 
         <a
-          href="/resume.pdf"
+          href="/resume.docx"
           target="_blank"
           className="group relative rounded-lg border border-cyan-500/40 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 px-4 py-2 text-sm font-semibold text-cyan-300 hover:border-cyan-500/80 hover:from-cyan-500/20 hover:to-blue-500/20 hover:shadow-lg hover:shadow-cyan-500/20 transition-all duration-300"
         >

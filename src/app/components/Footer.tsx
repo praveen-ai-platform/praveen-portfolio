@@ -42,7 +42,7 @@ export default function Footer() {
               </div>
             </a>
             <a
-              href="/resume.pdf"
+              href="/resume.docx"
               target="_blank"
               className="group relative flex items-center gap-2.5 px-5 py-3 rounded-lg font-semibold text-black overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/50 hover:scale-105 bg-gradient-to-r from-cyan-400 to-blue-500"
             >
