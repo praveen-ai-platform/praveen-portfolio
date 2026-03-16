@@ -12,9 +12,9 @@ export default function Certifications() {
   ];
 
   const awards = [
-    { award: "Multiple AMMY Awards", company: "Ameriprise Financial" },
-    { award: "Special AMMY Gold Award", company: "Ameriprise Financial" },
-    { award: "Spot Awards + Top Performer Recognition", company: "HP / HPE / DXC" },
+    { award: "Multiple AMMY Awards", company: "Organization-Level Recognitions" },
+    { award: "Special AMMY Gold Award", company: "Organization-Level Recognitions" },
+    { award: "Spot Awards + Top Performer Recognition", company: "Organization-Level Recognitions" },
   ];
 
   return (
