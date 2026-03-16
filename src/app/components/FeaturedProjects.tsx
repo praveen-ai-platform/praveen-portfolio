@@ -1,10 +1,10 @@
 const projects = [
   {
     icon: "🤖",
-    title: "Incident Assistant (FastAPI)",
+    title: "Incident Assistant",
     desc: "GenAI-powered assistant that retrieves relevant runbook and incident knowledge, providing grounded troubleshooting suggestions for faster incident triage and response.",
     impact: "Reduced incident triage time by 75% (30 min → 7.5 min) | Improved first-response accuracy by 85%",
-    tech: ["FastAPI", "GenAI", "LLMs", "Vector Search", "Python"],
+    tech: ["GenAI", "LLMs", "Vector Search", "Python"],
     link: "https://github.com/praveen-ai-platform/mlops-genai-portfolio/tree/main/rag-incident-assistant",
   },
   {
