@@ -47,7 +47,7 @@ export default function Hero() {
           </motion.p>
 
           <motion.h1
-            className="mt-3 text-2xl sm:text-3xl lg:text-5xl font-bold leading-tight flex flex-wrap gap-2 sm:gap-3"
+            className="mt-3 max-w-5xl text-xl sm:text-2xl lg:text-4xl font-bold leading-snug flex flex-wrap gap-x-2 gap-y-1.5 sm:gap-x-3 sm:gap-y-2"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
