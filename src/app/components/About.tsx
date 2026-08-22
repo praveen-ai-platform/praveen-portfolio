@@ -12,7 +12,7 @@ export default function About() {
                 Expert at implementing and optimizing enterprise observability platforms. Specialized in configuring and leveraging monitoring stacks (Sumo Logic, Splunk, Grafana/Prometheus, Dynatrace, Glassbox) and cloud infrastructure (AWS EKS, Lambda, Batch) to deliver actionable insights and drive operational excellence.
               </p>
               <p>
-                Specialist in turning data into intelligence through AIOps patterns—anomaly detection, alert correlation, and intelligent triage. I bridge the gap between reliability engineering and emerging technologies like GenAI and MLOps.
+                Specialist in turning data into intelligence through AIOps patterns—anomaly detection, alert correlation, and intelligent triage. I bridge the gap between reliability engineering and emerging technologies like GenAI.
               </p>
               <p>
                 Strong hands-on background with infrastructure automation (Terraform, Jenkins, Kubernetes, Docker), PII-aware data pipelines, and building AI-powered incident assistance systems.
@@ -67,11 +67,11 @@ export default function About() {
               </ul>
             </div>
             <div className="p-6 rounded-lg border border-cyan-500/20 bg-gradient-to-br from-cyan-500/10 to-blue-500/5 hover:border-cyan-500/40 transition-all duration-300">
-              <h4 className="text-white font-bold mb-4 text-lg flex items-center gap-2"><span className="text-cyan-400">🤖</span> GenAI | MLOps</h4>
+              <h4 className="text-white font-bold mb-4 text-lg flex items-center gap-2"><span className="text-cyan-400">🤖</span> GenAI</h4>
               <ul className="text-white/70 space-y-3 text-sm leading-relaxed">
                 <li className="flex gap-2"><span className="text-cyan-400/60">▸</span> GenAI-powered incident intelligence with RAG patterns</li>
                 <li className="flex gap-2"><span className="text-cyan-400/60">▸</span> AWS SageMaker ML pipelines: training, deployment, monitoring</li>
-                <li className="flex gap-2"><span className="text-cyan-400/60">▸</span> MLOps workflow automation: feature engineering, model versioning</li>
+                <li className="flex gap-2"><span className="text-cyan-400/60">▸</span> ML workflow automation: feature engineering, model versioning</li>
               </ul>
             </div>
           </div>
@@ -111,7 +111,7 @@ export default function About() {
               </div>
             </div>
             <div>
-              <h4 className="text-white font-bold mb-4 text-sm uppercase tracking-widest text-cyan-300">🧠 GenAI | MLOps | Languages</h4>
+              <h4 className="text-white font-bold mb-4 text-sm uppercase tracking-widest text-cyan-300">🧠 GenAI | Languages</h4>
               <div className="flex flex-wrap gap-3">
                 {["GenAI", "LLMs", "SageMaker", "ML Pipelines", "Vector Search", "Python", "Shell/Bash", "YAML"].map((tech) => (
                   <span key={tech} className="px-4 py-2 rounded-full bg-gradient-to-r from-cyan-500/20 to-blue-500/20 border border-cyan-500/40 text-sm font-medium text-cyan-300 hover:from-cyan-500/30 hover:to-blue-500/30 hover:border-cyan-500/60 hover:shadow-lg hover:shadow-cyan-500/20 transition-all duration-300 cursor-pointer">

@@ -31,7 +31,7 @@ export default function FeaturedProjects() {
       <div className="mb-10">
         <h2 className="text-2xl font-bold mb-2 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Featured Projects</h2>
         <p className="text-base text-white/70">
-          Production-ready projects demonstrating <span className="text-cyan-400 font-semibold">observability, AIOps, and GenAI | MLOps</span> capabilities with measurable impact.
+          Production-ready projects demonstrating <span className="text-cyan-400 font-semibold">observability, AIOps, and GenAI</span> capabilities with measurable impact.
         </p>
       </div>
 
