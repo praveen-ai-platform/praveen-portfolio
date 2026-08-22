@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Praveen • SRE • Observability • AIOps",
-  description: "Senior Platform Reliability Engineer specializing in Observability, Reliability, DevOps, AIOps, and GenAI. 11+ years of enterprise experience.",
+  description: "Platform Reliability Engineer specializing in observability, reliability, DevOps, AIOps, and GenAI for enterprise operations.",
 };
 
 export default function RootLayout({

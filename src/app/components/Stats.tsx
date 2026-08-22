@@ -6,9 +6,9 @@ export default function Stats() {
   const stats = [
     {
       icon: "📅",
-      number: "11+",
-      label: "Years in Production Systems",
-      description: "Enterprise reliability & automation",
+      number: "Enterprise-Ready",
+      label: "Platform Reliability",
+      description: "Observability, automation & AIOps",
     },
     {
       icon: "🛠️",

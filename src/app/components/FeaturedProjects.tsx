@@ -1,11 +1,11 @@
 const projects = [
   {
     icon: "🤖",
-    title: "Incident Assistant",
+    title: "RAG Assistant",
     desc: "GenAI-powered assistant that retrieves relevant runbook and incident knowledge, providing grounded troubleshooting suggestions for faster incident triage and response.",
     impact: "Reduced incident triage time by 75% (30 min → 7.5 min) | Improved first-response accuracy by 85%",
     tech: ["GenAI", "LLMs", "Vector Search", "Python"],
-    link: "https://github.com/praveen-ai-platform/mlops-genai-portfolio/tree/main/rag-incident-assistant",
+    link: "https://github.com/praveen-ai-platform/genai-reliability-portfolio",
   },
   {
     icon: "🔒",
@@ -13,7 +13,7 @@ const projects = [
     desc: "Privacy-aware log processing pipeline that detects PII entities using cloud-native services and masks/remediates sensitive values before sending to observability platforms.",
     impact: "Processed 500K+ logs daily with zero data breaches | Achieved 99.2% PII detection accuracy",
     tech: ["Cloud Comprehend", "Lambda", "Python", "Data Privacy", "Cloud Security"],
-    link: "https://github.com/praveen-ai-platform/mlops-genai-portfolio/tree/main/pii-comprehend-remediation-pipeline",
+    link: "https://github.com/praveen-ai-platform/genai-reliability-portfolio/tree/main/pii-comprehend-remediation-pipeline",
   },
   {
     icon: "📊",
@@ -21,7 +21,7 @@ const projects = [
     desc: "ML-driven system for anomaly detection and alert correlation. Reduces duplicate and repetitive alerts through intelligent clustering and signal correlation patterns.",
     impact: "Reduced alert volume by 80% (500 alerts/day → 50) | Improved MTTR by 45% | Saved ops team 20+ hours/week",
     tech: ["Python", "ML", "Sumo Logic", "Alerting", "AIOps"],
-    link: "#",
+    link: "https://github.com/praveen-ai-platform/genai-reliability-portfolio/tree/main/alert-noise-reduction-poc",
   },
 ];
 
