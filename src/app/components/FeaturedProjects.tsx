@@ -36,7 +36,7 @@ export default function FeaturedProjects() {
       </div>
 
       <div className="space-y-6">
-        {projects.map((p, idx) => (
+        {projects.map((p) => (
           <a key={p.title} href={p.link} target="_blank" rel="noopener noreferrer" className="group block transform transition-transform duration-300 hover:-translate-y-1">
             <div className="rounded-lg border border-cyan-500/20 bg-gradient-to-br from-cyan-500/5 via-black to-blue-500/5 p-6 hover:border-cyan-500/60 hover:from-cyan-500/15 hover:shadow-xl hover:shadow-cyan-500/25 transition-all duration-300 overflow-hidden relative">
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/0 via-cyan-500/0 to-blue-500/0 group-hover:from-cyan-500/10 group-hover:via-cyan-500/20 group-hover:to-blue-500/10 transition-all duration-300"></div>

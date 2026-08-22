@@ -3,7 +3,17 @@
 import { motion } from "framer-motion";
 
 export default function Hero() {
-  const words = ["Observability", "•", "AIOps", "•", "GenAI", "•", "MLOps"];
+  const words = [
+    "Observability",
+    "•",
+    "Reliability",
+    "•",
+    "DevOps",
+    "•",
+    "AIOps",
+    "•",
+    "GenAI",
+  ];
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -53,7 +63,11 @@ export default function Hero() {
                   stiffness: 180,
                   delay: index * 0.12,
                 }}
-                className={word === "•" ? "text-cyan-400/40" : "bg-gradient-to-r from-cyan-400 via-blue-400 to-blue-500 bg-clip-text text-transparent"}
+                className={
+                  word === "•"
+                    ? "text-cyan-400/40"
+                    : "bg-gradient-to-r from-cyan-400 via-blue-400 to-blue-500 bg-clip-text text-transparent"
+                }
               >
                 {word}
               </motion.span>
@@ -91,7 +105,7 @@ export default function Hero() {
               className="group relative px-7 sm:px-8 py-3 sm:py-3.5 text-sm sm:text-base font-bold border-2 border-cyan-400/50 text-cyan-300 rounded-lg overflow-hidden transition-all duration-300 hover:border-cyan-400 hover:text-cyan-200 hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-105 active:scale-95"
             >
               <span className="relative z-10 flex items-center gap-2">
-                Let's Connect
+                Let&apos;s Connect
                 <span className="group-hover:translate-x-1 transition-transform duration-300">✦</span>
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>

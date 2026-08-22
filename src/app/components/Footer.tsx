@@ -3,7 +3,7 @@ export default function Footer() {
     <footer id="contact" className="border-t border-cyan-500/20 bg-gradient-to-t from-cyan-500/5 to-transparent">
       <div className="mx-auto max-w-6xl px-6 py-16">
         <div className="mb-10">
-          <h2 className="text-2xl font-bold mb-3 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Let's Connect</h2>
+          <h2 className="text-2xl font-bold mb-3 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Let&apos;s Connect</h2>
           <p className="text-white/70 mb-8 max-w-2xl text-base leading-relaxed">
             Open to opportunities in Platform Reliability, Observability, AIOps, and roles involving GenAI (RAG) and MLOps operationalization.
           </p>
@@ -57,7 +57,7 @@ export default function Footer() {
 
         <div className="border-t border-cyan-500/20 pt-8">
           <p className="text-white/60 text-sm">
-            © {new Date().getFullYear()} Praveen • Platform Reliability Engineer • Built with Next.js • <span className="text-cyan-400">Observability • AIOps • GenAI</span>
+            © {new Date().getFullYear()} Praveen • Platform Reliability Engineer • Built with Next.js • <span className="text-cyan-400">Observability • Reliability • DevOps • AIOps • GenAI</span>
           </p>
         </div>
       </div>
